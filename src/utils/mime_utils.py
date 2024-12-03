@@ -10,6 +10,7 @@ MIME_MAPPING = {
     "image/tiff": [".tif", ".tiff"],
     "image/heif": [".heif", ".heic"],
     "image/x-icon": [".ico"],
+    "image/vnd.microsoft.icon": [".ico"],
     "application/pdf": [".pdf"],
     "text/plain": [".txt"],
     "text/html": [".html", ".htm"],
