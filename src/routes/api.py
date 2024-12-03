@@ -24,9 +24,8 @@ async def validate_file(file: UploadFile = File(...)):
     post_validation(file_path, is_valid)
 
     if not is_valid:
-        mime_type = get_mime_type(content)  # Obtém o MIME original
+        mime_type = get_mime_type(content)
         raise HTTPException(
-            status_code=400, 
             detail=f"MIME do arquivo não corresponde à extensão. MIME detectado: {mime_type}."
         )
 
