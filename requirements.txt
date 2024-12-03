@@ -2,5 +2,5 @@ fastapi
 uvicorn
 python-magic
 libmagic
-python-magic-bin
-# python-multipart, Only for Windows(Not Used on Linux)
+# python-magic-bin, Only for Windows(Not Used on Linux)
+python-multipart
