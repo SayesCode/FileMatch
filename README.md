@@ -70,7 +70,7 @@ The following MIME types and their corresponding extensions are supported:
 Here is an example of how to send a request to the API using `curl`:
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/api/v1/verify/validate-file/" \
+curl -X POST "https://filematch.vercel.app/api/v1/verify/validate-file/" \
 -F "file=@example.jpg"
 ```
 
