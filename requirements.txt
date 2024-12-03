@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-magic
+libmagic
+python-magic-bin
+python-multipart
