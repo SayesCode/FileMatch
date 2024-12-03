@@ -3,4 +3,4 @@ uvicorn
 python-magic
 libmagic
 python-magic-bin
-python-multipart
+# python-multipart, Only for Windows(Not Used on Linux)
